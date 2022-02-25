@@ -1,0 +1,32 @@
+{
+  "name": "test-coverage-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --optimize_for_size --max_old_space_size=460 server/index.js",
+    "dev": "nodemon",
+    "build-version": "bash build.version.sh"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsforce": "^1.10.1",
+    "dotenv": "^10.0.0",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flosum-service/test-coverage.git"
+  },
+  "author": "Vladislav Kovalev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flosum-service/test-coverage/issues"
+  },
+  "homepage": "https://github.com/flosum-service/test-coverage#readme"
+}
